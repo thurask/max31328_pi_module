@@ -1,460 +1,112 @@
 (kicad_sch
-	(version 20231120)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(uuid "9a99a525-4d39-43d7-9860-f63620b0c50c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers hide)
+		(symbol "Connector:Conn_01x05_Socket"
 			(pin_names
-				(offset 0.254)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "Conn_01x05_Socket"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCM_Resistor_AKL:R_0402"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "R_0402"
-				(at 2.54 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Resistor_SMD_AKL:R_0402_1005Metric"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor eu smd 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0402_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0402_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "PCM_SL_Pin_Headers:PINHD_1x5_Female"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PINHD_1x5_Female"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-				(at 2.54 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -5"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Pin Header"
+			(property "Description" "Generic connector, single row, 01x05, script generated"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "PinSocket_1x05_P2.54mm*"
+			(property "ki_locked" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(symbol "PINHD_1x5_Female_0_1"
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.905 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(arc
-					(start -0.508 -5.08)
-					(mid -0.3592 -5.4392)
-					(end 0 -5.588)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -2.54)
-					(mid -0.3592 -2.8992)
-					(end 0 -3.048)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(arc
-					(start -0.508 0)
-					(mid -0.3592 -0.3592)
-					(end 0 -0.508)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.54)
-					(mid -0.3592 2.1808)
-					(end 0 2.032)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 5.08)
-					(mid -0.3592 4.7208)
-					(end 0 4.572)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -4.572)
-					(mid -0.3592 -4.7208)
-					(end -0.508 -5.08)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.3592 -2.1808)
-					(end -0.508 -2.54)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "Conn_01x05_Socket_1_1"
 				(polyline
 					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
+						(xy -1.27 5.08) (xy -0.508 5.08)
 					)
 					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.25)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -466,7 +118,7 @@
 						(xy -1.27 2.54) (xy -0.508 2.54)
 					)
 					(stroke
-						(width 0.25)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -475,10 +127,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
+						(xy -1.27 0) (xy -0.508 0)
 					)
 					(stroke
-						(width 0.25)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -487,10 +139,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -5.588) (xy 1.016 -5.588)
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
 					)
 					(stroke
-						(width 0.25)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -499,106 +151,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -4.572) (xy 1.016 -4.572)
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
 					)
 					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.048) (xy 1.016 -3.048)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.032) (xy 1.016 -2.032)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 1.016 -0.508)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 1.016 0.508)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 1.016 2.032)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.048) (xy 1.016 3.048)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 4.572) (xy 1.016 4.572)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 5.588) (xy 1.016 5.588)
-					)
-					(stroke
-						(width 0.25)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -606,11 +162,11 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
-					(mid -0.3592 0.3592)
-					(end -0.508 0)
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
 					(stroke
-						(width 0.25)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -618,11 +174,11 @@
 					)
 				)
 				(arc
-					(start 0 3.048)
-					(mid -0.3592 2.8992)
-					(end -0.508 2.54)
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
 					(stroke
-						(width 0.25)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
@@ -630,23 +186,45 @@
 					)
 				)
 				(arc
-					(start 0 5.588)
-					(mid -0.3592 5.4392)
-					(end -0.508 5.08)
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
 					(stroke
-						(width 0.25)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "PINHD_1x5_Female_1_1"
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -3.81 5.08 0)
-					(length 2.54)
-					(name ""
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -662,9 +240,9 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 2.54 0)
-					(length 2.54)
-					(name ""
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -680,9 +258,9 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -698,9 +276,9 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -2.54 0)
-					(length 2.54)
-					(name ""
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -716,9 +294,9 @@
 					)
 				)
 				(pin passive line
-					(at -3.81 -5.08 0)
-					(length 2.54)
-					(name ""
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -734,13 +312,505 @@
 					)
 				)
 			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Capacitor_AKL:C_0805"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_0805"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor ceramic chip mlcc smd 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0805_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0805_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -0.381 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy -1.651 0.635)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -0.508) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 0.381) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy -0.635 1.651)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 1.651 -0.635)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0805_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "C_0805_1_2"
+				(pin passive line
+					(at 2.54 2.54 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "PCM_Resistor_AKL:R_0805"
+			(body_styles demorgan)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.54 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0805"
+				(at 2.54 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor eu  smd 0805"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0805_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0805_0_2"
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.524 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 0.889 2.159) (xy -2.159 -0.889) (xy -0.889 -2.159) (xy 2.159 0.889) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_0805_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "R_0805_1_2"
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
 		(symbol "SamacSys_Parts:3050"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 19.05 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -750,6 +820,8 @@
 			)
 			(property "Value" "3050"
 				(at 19.05 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -759,81 +831,97 @@
 			)
 			(property "Footprint" "3050"
 				(at 19.05 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.mouser.in/datasheet/2/215/050-744796.pdf"
 				(at 19.05 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Battery Contacts 10MM SM COIN CELL CLIP"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Height" "2.95"
 				(at 19.05 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Mouser Part Number" "534-3050"
 				(at 19.05 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3050?qs=wOxb8XianXi%2FFCXYW7A%252BPA%3D%3D"
 				(at 19.05 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Name" "Keystone Electronics"
 				(at 19.05 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Part_Number" "3050"
 				(at 19.05 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "3050_1_1"
@@ -903,13 +991,18 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "SamacSys_Parts:MAX31328NELB+"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "IC"
 				(at 31.75 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -919,6 +1012,8 @@
 			)
 			(property "Value" "MAX31328NELB+"
 				(at 31.75 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -928,81 +1023,97 @@
 			)
 			(property "Footprint" "MAX31328NELB"
 				(at 31.75 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://www.analog.com/MAX31328/datasheet"
 				(at 31.75 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "Package: 5mm x 5mm 10-Pin LGA"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Height" "1.35"
 				(at 31.75 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Mouser Part Number" "700-MAX31328NELB+"
 				(at 31.75 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX31328NELB%2b?qs=GCAb4wyKXLIfd81vzdFkXA%3D%3D"
 				(at 31.75 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Name" "Analog Devices"
 				(at 31.75 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Manufacturer_Part_Number" "MAX31328NELB+"
 				(at 31.75 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(symbol "MAX31328NELB+_1_1"
@@ -1028,24 +1139,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 0 180)
-					(length 5.08)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1197,20 +1290,33 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
-		(at 58.42 26.67)
+		(at 63.5 13.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "03bbaff8-74a3-4791-8d69-9a9663df299a")
-	)
-	(junction
-		(at 78.74 13.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b88217b-5581-407f-ab7f-a91ed78bbf6e")
+		(uuid "38567ec6-5afb-4415-a622-25466dbb4168")
 	)
 	(junction
 		(at 93.98 13.97)
@@ -1225,6 +1331,24 @@
 		(uuid "5d338ee0-04fb-43d3-b8d8-9b1598ef98c5")
 	)
 	(junction
+		(at 63.5 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71f2dddf-b89e-43f3-858b-64bc123b1482")
+	)
+	(junction
+		(at 91.44 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "808e6bc9-fb31-4f69-9f3d-4f5f25802135")
+	)
+	(junction
+		(at 73.66 13.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "858f75e6-3750-427a-801e-93dac8d9ec07")
+	)
+	(junction
 		(at 106.68 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1235,18 +1359,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bca95be-5f6f-41e4-9180-449e3c79a8b1")
-	)
-	(junction
-		(at 71.12 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bcacd43-af55-4649-9582-9a5e6ea71f1c")
-	)
-	(junction
-		(at 53.34 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98deaeb6-3a80-49c2-ad73-31d84bdd18f0")
 	)
 	(junction
 		(at 53.34 38.1)
@@ -1267,22 +1379,10 @@
 		(uuid "b2e49d8f-9207-4341-8865-8a8a4370366b")
 	)
 	(junction
-		(at 67.31 13.97)
+		(at 88.9 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b9b5bf81-60b8-476c-a973-ebffd056f2ee")
-	)
-	(junction
-		(at 88.9 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6f86a36-97f5-4752-b979-4d0d2bcf6b42")
-	)
-	(junction
-		(at 95.25 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cceb6d1d-0001-46fc-a53d-1c976563d737")
+		(uuid "b7f71280-1b20-410d-8e5c-d4341658c422")
 	)
 	(junction
 		(at 93.98 38.1)
@@ -1291,10 +1391,22 @@
 		(uuid "d7465d41-6501-4ca8-8cf2-d4d1d51f1848")
 	)
 	(junction
+		(at 73.66 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddf9272a-6d95-4962-92ec-075f7439ce0e")
+	)
+	(junction
 		(at 59.69 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e78859ac-2864-47e4-bcca-4879efaca441")
+	)
+	(junction
+		(at 53.34 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb9d21fe-52d7-49ef-8da8-8ef3210d8960")
 	)
 	(no_connect
 		(at 111.76 35.56)
@@ -1324,23 +1436,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 13.97) (xy 78.74 13.97)
+			(xy 73.66 13.97) (xy 88.9 13.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "01aac0f2-645f-4f61-8b62-67a71307cb7c")
-	)
-	(wire
-		(pts
-			(xy 88.9 53.34) (xy 85.09 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03f8a183-33a3-4e50-874f-c8c0cd79472b")
 	)
 	(wire
 		(pts
@@ -1351,6 +1453,26 @@
 			(type default)
 		)
 		(uuid "09bc6329-2410-4c6d-aca6-0c5aa13bb045")
+	)
+	(wire
+		(pts
+			(xy 63.5 13.97) (xy 13.97 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "178ee1c7-1476-4951-b9ac-2b2826ce140f")
+	)
+	(wire
+		(pts
+			(xy 63.5 16.51) (xy 63.5 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cee961-4b1a-401f-ad40-01f438539d5c")
 	)
 	(wire
 		(pts
@@ -1374,17 +1496,27 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 25.4) (xy 71.12 30.48)
+			(xy 63.5 24.13) (xy 63.5 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33732c8f-1723-4265-83ad-c722fedc2a14")
+		(uuid "2e80644d-9218-462a-8e8c-aa5de13e39cb")
 	)
 	(wire
 		(pts
-			(xy 91.44 57.15) (xy 91.44 50.8)
+			(xy 73.66 16.51) (xy 73.66 13.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fb6b7ae-9075-4a4c-b8f0-45ab16bac449")
+	)
+	(wire
+		(pts
+			(xy 91.44 38.1) (xy 91.44 40.64)
 		)
 		(stroke
 			(width 0)
@@ -1394,17 +1526,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 38.1) (xy 106.68 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "361b107c-337d-4c1c-851e-c2d0898eab04")
-	)
-	(wire
-		(pts
-			(xy 53.34 48.26) (xy 53.34 45.72)
+			(xy 53.34 39.37) (xy 53.34 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1424,17 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 50.8) (xy 95.25 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c593f4a-86e1-45ae-8915-bf4bc1fe3c57")
-	)
-	(wire
-		(pts
-			(xy 93.98 57.15) (xy 93.98 53.34)
+			(xy 93.98 40.64) (xy 93.98 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1464,53 +1576,13 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 29.21) (xy 58.42 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54312015-0f78-44ae-818d-cb6f004f7e00")
-	)
-	(wire
-		(pts
-			(xy 58.42 26.67) (xy 58.42 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5519e783-d4c6-4d2e-80cc-3994f0147b00")
-	)
-	(wire
-		(pts
-			(xy 73.66 34.29) (xy 85.09 34.29)
+			(xy 73.66 34.29) (xy 88.9 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "57bd712a-a01a-49b0-b4fc-594f9a676a7d")
-	)
-	(wire
-		(pts
-			(xy 53.34 26.67) (xy 53.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57eaffac-a1be-42a5-8327-5facc460d0e8")
-	)
-	(wire
-		(pts
-			(xy 53.34 26.67) (xy 58.42 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5af3558e-f828-4aef-a06f-9ffb94c2ef74")
 	)
 	(wire
 		(pts
@@ -1524,13 +1596,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 45.72) (xy 53.34 39.37)
+			(xy 63.5 29.21) (xy 80.01 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "74658a51-f787-4c9d-ad01-771608349537")
+		(uuid "6da8dbf9-7d5f-45a1-8a30-f5d811cee59f")
+	)
+	(wire
+		(pts
+			(xy 73.66 30.48) (xy 111.76 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71fba433-d4ed-4824-9b71-79db21fa6569")
 	)
 	(wire
 		(pts
@@ -1554,23 +1636,43 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 13.97) (xy 67.31 13.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cc8a4c7-15b9-4441-b466-0e7d544b1318")
-	)
-	(wire
-		(pts
-			(xy 17.78 39.37) (xy 17.78 45.72)
+			(xy 17.78 39.37) (xy 17.78 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7d088bbd-9a36-4d73-8c0a-2a634d192de1")
+	)
+	(wire
+		(pts
+			(xy 91.44 38.1) (xy 93.98 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "807978c7-98a0-46bb-bc51-6fc69fe5f426")
+	)
+	(wire
+		(pts
+			(xy 93.98 38.1) (xy 106.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85be9f10-053f-43a2-9a6d-83ea2b31724f")
+	)
+	(wire
+		(pts
+			(xy 53.34 30.48) (xy 53.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c85e340-68eb-4c8c-be00-4de4ba83c1b4")
 	)
 	(wire
 		(pts
@@ -1584,7 +1686,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 29.21) (xy 80.01 29.21)
+			(xy 53.34 29.21) (xy 63.5 29.21)
 		)
 		(stroke
 			(width 0)
@@ -1594,17 +1696,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 25.4) (xy 59.69 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "945fee6f-d695-4744-a4cc-5e4dc49edd0f")
-	)
-	(wire
-		(pts
-			(xy 93.98 53.34) (xy 88.9 53.34)
+			(xy 93.98 39.37) (xy 88.9 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1624,33 +1716,13 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 45.72) (xy 53.34 45.72)
+			(xy 17.78 48.26) (xy 53.34 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9fa5da67-5d69-4c65-881c-58b206e16e03")
-	)
-	(wire
-		(pts
-			(xy 53.34 31.75) (xy 71.12 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0e23c2f-b334-41c8-a60a-73b1f7c432f1")
-	)
-	(wire
-		(pts
-			(xy 67.31 13.97) (xy 67.31 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a97f543b-55c7-42be-979c-adc988abd4fe")
 	)
 	(wire
 		(pts
@@ -1684,33 +1756,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 38.1) (xy 95.25 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6ee8a35-887e-4622-9ab1-57f076ec690b")
-	)
-	(wire
-		(pts
-			(xy 67.31 13.97) (xy 13.97 13.97)
+			(xy 63.5 13.97) (xy 73.66 13.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bc7605b4-4ba7-41b2-88a5-ff5dab8ba676")
-	)
-	(wire
-		(pts
-			(xy 91.44 50.8) (xy 95.25 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c494ab50-2c25-4153-8414-f04df673c85f")
 	)
 	(wire
 		(pts
@@ -1724,27 +1776,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 53.34) (xy 88.9 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b1da90-df48-4ee3-867c-4af7c765d444")
-	)
-	(wire
-		(pts
-			(xy 78.74 13.97) (xy 78.74 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3270ba8-5910-462b-a418-ec0aa3671f3e")
-	)
-	(wire
-		(pts
-			(xy 53.34 38.1) (xy 93.98 38.1)
+			(xy 53.34 38.1) (xy 91.44 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1754,13 +1786,33 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 30.48) (xy 111.76 30.48)
+			(xy 73.66 24.13) (xy 73.66 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd5e2716-7612-41fc-8db7-52133d7dfe1b")
+	)
+	(wire
+		(pts
+			(xy 53.34 30.48) (xy 73.66 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e51cdcef-332b-4670-a49b-20e5c951a0b1")
+	)
+	(wire
+		(pts
+			(xy 88.9 39.37) (xy 88.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5845a32-c091-43fa-b01b-f4f255d01b65")
 	)
 	(wire
 		(pts
@@ -1784,7 +1836,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 34.29) (xy 85.09 53.34)
+			(xy 88.9 34.29) (xy 88.9 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1822,19 +1874,8 @@
 		)
 		(uuid "fe0c5802-2c91-4820-9fc8-5a117ff6d941")
 	)
-	(wire
-		(pts
-			(xy 71.12 30.48) (xy 71.12 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffcd1b69-11ac-449e-8130-ff2f7e0d45b0")
-	)
 	(label "VBAT"
 		(at 53.34 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1845,7 +1886,6 @@
 	)
 	(label "SCL"
 		(at 107.95 33.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1856,7 +1896,6 @@
 	)
 	(label "VCC"
 		(at 107.95 27.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1867,7 +1906,6 @@
 	)
 	(label "SDA"
 		(at 107.95 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1878,7 +1916,6 @@
 	)
 	(label "GND"
 		(at 107.95 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1888,17 +1925,21 @@
 		(uuid "9ad81e4b-240d-4a2b-b6a9-2484521241cd")
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 73.66 44.45 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "326831e4-728b-4188-8900-8382f0b9f961")
 		(property "Reference" "C4"
 			(at 77.47 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,6 +1949,8 @@
 		)
 		(property "Value" "0.1 μF"
 			(at 77.47 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1915,31 +1958,37 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 74.6252 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 73.66 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1958,56 +2007,70 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 74.93 25.4 90)
+		(lib_id "PCM_Resistor_AKL:R_0805")
+		(at 73.66 20.32 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "380e5f5e-ad36-4587-8970-02fa0b773f51")
 		(property "Reference" "R2"
-			(at 74.93 19.05 90)
+			(at 76.2 19.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "4K7"
-			(at 74.93 21.59 90)
+			(at 76.2 21.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
+			(at 73.66 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 86.36 25.4 0)
+		(property "Datasheet" ""
+			(at 73.66 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 74.93 25.4 0)
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 73.66 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 74.93 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2017,7 +2080,7 @@
 			(uuid "43974261-93de-4c12-b8b5-3a3ab38cf20b")
 		)
 		(instances
-			(project ""
+			(project "pi_max31328"
 				(path "/9a99a525-4d39-43d7-9860-f63620b0c50c"
 					(reference "R2")
 					(unit 1)
@@ -2026,56 +2089,70 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Resistor_AKL:R_0402")
-		(at 63.5 25.4 90)
+		(lib_id "PCM_Resistor_AKL:R_0805")
+		(at 63.5 20.32 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c884d3c-9617-4409-abe8-8de4353e40b4")
 		(property "Reference" "R1"
-			(at 63.5 19.05 90)
+			(at 66.04 19.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "4K7"
-			(at 63.5 21.59 90)
+			(at 66.04 21.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric"
+			(at 63.5 8.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0402_1005Metric"
-			(at 74.93 25.4 0)
+		(property "Datasheet" ""
+			(at 63.5 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 63.5 25.4 0)
+		(property "Description" "SMD 0805 Chip Resistor, European Symbol, Alternate KiCad Library"
+			(at 63.5 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD 0402 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 63.5 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2085,7 +2162,7 @@
 			(uuid "b7530c8e-0f8b-4d99-a5f9-0a0f4f50523e")
 		)
 		(instances
-			(project ""
+			(project "pi_max31328"
 				(path "/9a99a525-4d39-43d7-9860-f63620b0c50c"
 					(reference "R1")
 					(unit 1)
@@ -2097,14 +2174,18 @@
 		(lib_id "SamacSys_Parts:MAX31328NELB+")
 		(at 17.78 29.21 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fbca594-b034-4d61-9519-c0ccf5400cff")
 		(property "Reference" "U1"
 			(at 35.56 21.59 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2113,6 +2194,8 @@
 		)
 		(property "Value" "MAX31328NELB+"
 			(at 35.56 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,81 +2204,97 @@
 		)
 		(property "Footprint" "MAX31328NELB"
 			(at 49.53 124.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/MAX31328/datasheet"
 			(at 49.53 224.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Package: 5mm x 5mm 10-Pin LGA"
 			(at 17.78 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Height" "1.35"
 			(at 49.53 424.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "700-MAX31328NELB+"
 			(at 49.53 524.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX31328NELB%2b?qs=GCAb4wyKXLIfd81vzdFkXA%3D%3D"
 			(at 49.53 624.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Analog Devices"
 			(at 49.53 724.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "MAX31328NELB+"
 			(at 49.53 824.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2229,7 +2328,7 @@
 			(uuid "7d6c3b0d-8393-4af2-8c41-06f5ce43f2bf")
 		)
 		(instances
-			(project ""
+			(project "pi_max31328"
 				(path "/9a99a525-4d39-43d7-9860-f63620b0c50c"
 					(reference "U1")
 					(unit 1)
@@ -2238,17 +2337,21 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 93.98 19.05 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae54c3c-5a8a-41bc-af5a-b05aa1ed474a")
 		(property "Reference" "C1"
 			(at 97.79 17.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,6 +2361,8 @@
 		)
 		(property "Value" "1.0 μF"
 			(at 97.79 20.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,31 +2370,37 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 94.9452 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 93.98 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 93.98 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2299,7 +2410,7 @@
 			(uuid "ade88001-cbb8-46ab-a961-6b1542337ea4")
 		)
 		(instances
-			(project ""
+			(project "pi_max31328"
 				(path "/9a99a525-4d39-43d7-9860-f63620b0c50c"
 					(reference "C1")
 					(unit 1)
@@ -2309,16 +2420,20 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:3050")
-		(at 93.98 57.15 270)
+		(at 93.98 40.64 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7d10123-6b9c-48f0-8143-a2fe5a526cc6")
 		(property "Reference" "BAT1"
-			(at 97.79 67.3099 90)
+			(at 97.79 50.7999 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2442,9 @@
 			)
 		)
 		(property "Value" "3050"
-			(at 97.79 69.8499 90)
+			(at 97.79 53.3399 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,82 +2453,98 @@
 			)
 		)
 		(property "Footprint" "3050"
-			(at -0.94 76.2 0)
+			(at -0.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.mouser.in/datasheet/2/215/050-744796.pdf"
-			(at -100.94 76.2 0)
+			(at -100.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Description" "Battery Contacts 10MM SM COIN CELL CLIP"
-			(at 93.98 57.15 0)
+			(at 93.98 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Height" "2.95"
-			(at -300.94 76.2 0)
+			(at -300.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Mouser Part Number" "534-3050"
-			(at -400.94 76.2 0)
+			(at -400.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/3050?qs=wOxb8XianXi%2FFCXYW7A%252BPA%3D%3D"
-			(at -500.94 76.2 0)
+			(at -500.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Name" "Keystone Electronics"
-			(at -600.94 76.2 0)
+			(at -600.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Manufacturer_Part_Number" "3050"
-			(at -700.94 76.2 0)
+			(at -700.94 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(pin "3"
@@ -2424,7 +2557,7 @@
 			(uuid "f66d4292-8bb9-476c-b9aa-52194aff25cd")
 		)
 		(instances
-			(project ""
+			(project "pi_max31328"
 				(path "/9a99a525-4d39-43d7-9860-f63620b0c50c"
 					(reference "BAT1")
 					(unit 1)
@@ -2433,17 +2566,21 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x5_Female")
-		(at 115.57 33.02 0)
+		(lib_id "Connector:Conn_01x05_Socket")
+		(at 116.84 33.02 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d966c637-fd1c-4cd0-bb92-9386427dc8c0")
 		(property "Reference" "J1"
 			(at 118.11 31.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,6 +2590,8 @@
 		)
 		(property "Value" "PINHD_1x5_Female"
 			(at 118.11 34.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2461,30 +2600,36 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 118.11 19.05 0)
+			(at 116.84 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 21.59 0)
+			(at 116.84 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -5"
-			(at 115.57 33.02 0)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 116.84 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -2503,7 +2648,7 @@
 			(uuid "5d4e0036-07f4-46dd-ad24-258574b36c5f")
 		)
 		(instances
-			(project ""
+			(project "pi_max31328"
 				(path "/9a99a525-4d39-43d7-9860-f63620b0c50c"
 					(reference "J1")
 					(unit 1)
@@ -2512,17 +2657,21 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 106.68 19.05 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df3684a1-801a-419a-8b75-20b92ef8af57")
 		(property "Reference" "C2"
 			(at 110.49 17.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,6 +2681,8 @@
 		)
 		(property "Value" "0.1 μF"
 			(at 110.49 20.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2539,31 +2690,37 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 107.6452 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 106.68 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 106.68 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2573,7 +2730,7 @@
 			(uuid "509a6829-3146-4220-a96a-ab3195c8ab03")
 		)
 		(instances
-			(project ""
+			(project "pi_max31328"
 				(path "/9a99a525-4d39-43d7-9860-f63620b0c50c"
 					(reference "C2")
 					(unit 1)
@@ -2582,17 +2739,21 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "PCM_Capacitor_AKL:C_0805")
 		(at 59.69 44.45 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdcc9969-a1cf-4dbb-b7c1-c6d62f6864f5")
 		(property "Reference" "C3"
 			(at 63.5 43.1799 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,6 +2763,8 @@
 		)
 		(property "Value" "1.0 μF"
 			(at 63.5 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,31 +2772,37 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0402_1005Metric"
+		(property "Footprint" "PCM_Capacitor_SMD_AKL:C_0805_2012Metric"
 			(at 60.6552 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 59.69 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "SMD 0805 MLCC capacitor, Alternate KiCad Library"
 			(at 59.69 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2656,4 +2825,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
